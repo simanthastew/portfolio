@@ -2,71 +2,79 @@
 <html>
   <head>
     <title>samantha stewart</title>
+    <link rel='stylesheet' type='text/css' href='css/index.css'>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+  	<script src="js/index.js"></script>
+  	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Rock+Salt|Montserrat">
   </head>
   <body>
   	<h1>samantha stewart</h1>
   	<nav>
-  		<ul>
-  			<li>about</li>
-  			<li>projects</li>
-  			<li>experience</li>
-  			<li>contact</li>
+  		<ul id='menu'>
+  			<li><a href='#summary'>about</a></li>
+  			<li><a href='#projects'>projects</a></li>
+  			<li><a href='#experience'>experience</a></li>
+  			<li><a href='#contact'>contact</a></li>
   		</ul>
   	</nav>
+  	<div id='wrapper'>
 
-  	<div id='summary'>
-  		<img src="images/bolivia.jpg">
-  		<p>
-  			Hey, I'm Sam. <br>
-  			Michigan born and bred, currently located in Detroit. <br>
-  			I play euchre, I say pop instead of soda, and I'm also a full stack web developer.
-  		</p>
-  	</div>
+	  	<div id='summary'>
+	  		<img src="images/bolivia.jpg">
+	  		<p>
+	  			Hey, I'm Sam. <br>
+	  			Michigan born and bred, currently located in Detroit. <br>
+	  			I play euchre, I say pop instead of soda, and I'm also a full stack web developer.
+	  		</p>
+	  	</div>
 
-  	<div id='projects'>
-  		<h1>projects</h1>
-  		<h2>Seatd</h2>
-  		<img src="images/seatd.png">
-  		<h3>Ruby on Rails, PostgreQL, Ionic, AngularJS, HTML, CSS, Google Maps API, Cordova Geolocation Plugin</h3>
-  		<p>
-  			Seatd is an iOS application that allows users to make last-minute beauty appointments. I was charged with communication between the front end and back end along with successfully implementing location services for the 'Get Seatd Near Me' feature. I also developed a custom user authentication process for users on the mobile interface and built out views for the mobile interface. Seatd is currently in development, with many new and exciting features being added each week.
-  		</p>
-  	</div>
+	  	<div id='projects'>
+	  		<h1>projects</h1>
+	  		<h2>Seatd</h2>
+	  		<img src="images/seatd.png">
+	  		<h3>Ruby on Rails, PostgreQL, Ionic, AngularJS, HTML, CSS, Google Maps API, Cordova Geolocation Plugin</h3>
+	  		<p>
+	  			Seatd is an iOS application that allows users to make last-minute beauty appointments. I was charged with communication between the front end and back end along with successfully implementing location services for the 'Get Seatd Near Me' feature. I also developed a custom user authentication process for users on the mobile interface and built out views for the mobile interface. Seatd is currently in development, with many new and exciting features being added each week.
+	  		</p>
+	  	</div>
 
-  	<div id='experience'>
-  		<h1>experience</h1>
+	  	<div id='experience'>
+	  		<h1>experience</h1>
 
-  		<div>
-  			<h3>Creator of Beautiful and Meaningful Things | Recent Graduate</h3>
-  			<h4>Dev Bootcamp</h4>
-  			<p>
-  				Completed 1000+ hours of coding in an Agile environment while becoming proficient in Ruby/Rails, Javascript, AngularJS, HTML, and CSS. We created command line, web, and mobile applications individually, with pairs, and as a team of four or more members and underwent extensive training in workplace practices such as conflict management, diversity training, and effective feedback skills.
-  			</p>
-  		</div>
+	  		<div>
+	  			<h3>Creator of Beautiful and Meaningful Things | Recent Graduate</h3>
+	  			<h4>Dev Bootcamp</h4>
+	  			<p>
+	  				Completed 1000+ hours of coding in an Agile environment while becoming proficient in Ruby/Rails, Javascript, AngularJS, HTML, and CSS. We created command line, web, and mobile applications individually, with pairs, and as a team of four or more members and underwent extensive training in workplace practices such as conflict management, diversity training, and effective feedback skills.
+	  			</p>
+	  		</div>
 
-  		<div>
-  			<h3>Project Coordinator</h3>
-  			<h4>PlayWorks Therapy, Inc.</h4>
-  			<p>
-  				Refined insurance billing policies to increase efficiency and customer satisfaction and improved the company's SEO through increased blog activity and successful Google AdWord campaigns while managing all therapists' caseloads.
-  			</p>
-  		</div>
+	  		<div>
+	  			<h3>Project Coordinator</h3>
+	  			<h4>PlayWorks Therapy, Inc.</h4>
+	  			<p>
+	  				Refined insurance billing policies to increase efficiency and customer satisfaction and improved the company's SEO through increased blog activity and successful Google AdWord campaigns while managing all therapists' caseloads.
+	  			</p>
+	  		</div>
 
-  		<div>
-  			<h3>Executive Board Member and Business Manager</h3>
-  			<h4>What The F Magazine and Non Profit</h4>
-  			<p>
-  				Founding member of the feminist magazine and non-profit organization. Oversaw all business operations, including: publishing, distribution, funding, budget, and bank accounts while managing a small committee of members.
-  			</p>
-  		</div>
-  	</div>
+	  		<div>
+	  			<h3>Executive Board Member and Business Manager</h3>
+	  			<h4>What The F Magazine and Non Profit</h4>
+	  			<p>
+	  				Founding member of the feminist magazine and non-profit organization. Oversaw all business operations, including: publishing, distribution, funding, budget, and bank accounts while managing a small committee of members.
+	  			</p>
+	  		</div>
+	  	</div>
 
-  	<div id='contact'>
-  		<p>
-  			Want to get in touch? <br>
-  			samantha.stewart726@gmail.com github.com/simanthastew linkedin.com/in/samanthastewart726 <br>
-  			Available for freelance work.
-  		</p>
+	  	<div id='contact'>
+	  		<p>
+	  			Want to get in touch? <br>
+	  			samantha.stewart726@gmail.com github.com/simanthastew linkedin.com/in/samanthastewart726 <br>
+	  			Available for freelance work.
+	  		</p>
+	  	</div>
   	</div>
   </body>
 </html>
